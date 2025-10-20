@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Interface Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar-left">
+            <div class="logo"><a href="index.html"><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div class="nav-item"><i class="fa-regular fa-home"></i><span>Home</span></div>
+            <div class="nav-item"><i class="fa-solid fa-search"></i><span>Explore</span></div>
+            <div class="nav-item"><i class="fa-regular fa-bell"></i><span>Notifications</span></div>
+            <div class="nav-item"><i class="fa-regular fa-envelope"></i><span>Messages</span></div>
+            <div class="nav-item"><i class="fa-solid fa-robot"></i><span>Grok</span></div>
+            <div class="nav-item"><i class="fa-brands fa-x-twitter"></i><span>Premium</span></div>
+            <div class="nav-item"><i class="fa-solid fa-list"></i><span>Lists</span></div>
+            <div class="nav-item"><i class="fa-regular fa-bookmark"></i><span>Bookmarks</span></div>
+            <div class="nav-item"><i class="fas fa-users"></i><span>Communities</span></div>
+            <div class="nav-item"><i class="fa-solid fa-ellipsis"></i><span>More</span></div>
+            <div class="post-button"><i class="fa-solid fa-feather"></i><span>Post</span></div>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <div class="tabs">
+                    <button class="tab active">For you</button>
+                    <button class="tab">Following</button>
+                    <div class="tab-indicator"></div>
+                </div>
+            </div>
+            <div class="post-input">
+                <a href="profile.html" class="avatar-link">
+                    <img src="avatar.jpeg" alt="Profile" class="avatar">
+                </a>
+                <div class="input-wrapper">
+                    <textarea placeholder="What's happening?" aria-label="Write a post"></textarea>
+                    <div class="post-actions">
+                        <div class="action-icons">
+                            <i class="fas fa-image" title="Add image" aria-hidden="true"></i>
+                            <i class="fas fa-film" title="Add GIF" aria-hidden="true"></i>
+                            <i class="fas fa-poll" title="Add poll" aria-hidden="true"></i>
+                            <i class="fas fa-smile" title="Add emoji" aria-hidden="true"></i>
+                            <i class="fas fa-calendar" title="Schedule post" aria-hidden="true"></i>
+                        </div>
+                        <button class="post-button" disabled>Post</button>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <a href="profile.html" class="avatar-link">
+                    <img src="avatar.jpeg" alt="Profile" class="avatar">
+                </a>
+                <div class="post-content">
+                    <div class="post-header">
+                        <span class="user">User Name</span>
+                        <i class="fas fa-check-circle verified" title="Verified account" aria-hidden="true"></i>
+                        <span class="handle">@username · 1h</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">This is a sample post on the X platform replica! Excited to share my thoughts.
+                        #XPlatform</div>
+                    <div class="post-media">
+                        <img src="developerng.png" alt="Post image">
+                    </div>
+                    <div class="actions">
+                        <span><i class="fas fa-comment" title="Reply" aria-hidden="true"></i> 12</span>
+                        <span><i class="fas fa-retweet" title="Repost" aria-hidden="true"></i> 45</span>
+                        <span><i class="fas fa-heart" title="Like" aria-hidden="true"></i> 123</span>
+                        <span><i class="fas fa-share" title="Share" aria-hidden="true"></i> 10</span>
+                    </div>
+                    <div class="thread-link">Show this thread</div>
+                </div>
+            </div>
+            <div class="post">
+                <a href="profile.html" class="avatar-link">
+                    <img src="avatar.jpeg" alt="Profile" class="avatar">
+                </a>
+                <div class="post-content">
+                    <div class="post-header">
+                        <span class="user">Another User</span>
+                        <span class="handle">@anotheruser · 2h</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">Loving this new interface design! It feels so modern and sleek. 😎</div>
+                    <div class="actions">
+                        <span><i class="fas fa-comment" title="Reply" aria-hidden="true"></i> 8</span>
+                        <span><i class="fas fa-retweet" title="Repost" aria-hidden="true"></i> 20</span>
+                        <span><i class="fas fa-heart" title="Like" aria-hidden="true"></i> 56</span>
+                        <span><i class="fas fa-share" title="Share" aria-hidden="true"></i> 5</span>
+                    </div>
+                </div>
+            </div>
+            <button class="floating-post"><i class="fa-solid fa-feather" title="Write a post"
+                    aria-hidden="true"></i></button>
+        </div>
+
+
+        <!-- Right Sidebar -->
+        <div class="sidebar-right">
+            <div class="search-bar">
+                <i class="fas fa-search" aria-hidden="true" title="Search"></i>
+                <input type="text" placeholder="Search" aria-label="Search X">
+            </div>
+            <div class="trends">
+                <h3>Trends for you</h3>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Technology</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#AIRevolution</div>
+                    <div class="posts">123K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Sports</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#WorldCup</div>
+                    <div class="posts">89K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Entertainment</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">New Movie Release</div>
+                    <div class="posts">56K posts</div>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+            <div class="who-to-follow">
+                <h3>Who to follow</h3>
+                <div class="follow-item">
+                    <img src="developerng.png" alt="Profile" class="avatar">
+                    <div class="follow-info">
+                        <div class="user">Suggested User</div>
+                        <div class="handle">@suggesteduser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <div class="follow-item">
+                    <img src="developerng.png" alt="Profile" class="avatar">
+                    <div class="follow-info">
+                        <div class="user">Another User</div>
+                        <div class="handle">@anotheruser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

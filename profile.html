@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | X Interface Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar-left">
+            <div class="logo"><a href="index.html"><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div class="nav-item"><i class="fa-regular fa-home"></i><span>Home</span></div>
+            <div class="nav-item"><i class="fa-solid fa-search"></i><span>Explore</span></div>
+            <div class="nav-item"><i class="fa-regular fa-bell"></i><span>Notifications</span></div>
+            <div class="nav-item"><i class="fa-regular fa-envelope"></i><span>Messages</span></div>
+            <div class="nav-item"><i class="fa-solid fa-robot"></i><span>Grok</span></div>
+            <div class="nav-item"><i class="fa-brands fa-x-twitter"></i><span>Premium</span></div>
+            <div class="nav-item"><i class="fa-solid fa-list"></i><span>Lists</span></div>
+            <div class="nav-item"><i class="fa-regular fa-bookmark"></i><span>Bookmarks</span></div>
+            <div class="nav-item"><i class="fas fa-users"></i><span>Communities</span></div>
+            <div class="nav-item"><i class="fa-solid fa-ellipsis"></i><span>More</span></div>
+            <div class="post-button"><i class="fa-solid fa-feather"></i><span>Post</span></div>
+
+        </div>
+
+        <!-- Main Content: Profile Page -->
+        <div class="main-content profile-page">
+            <!-- Profile Banner -->
+            <div class="profile-banner">
+                <img src="developerng.png" alt="Profile Banner">
+            </div>
+
+            <!-- Profile Avatar (Overlaps Banner) -->
+            <div class="profile-avatar">
+                <img src="avatar.jpeg" alt="Profile Avatar">
+            </div>
+
+            <!-- Profile Info -->
+            <div class="profile-info">
+                <div class="profile-top">
+                    <h1 class="user-name">User Name <i class="fas fa-check-circle verified" title="Verified"></i></h1>
+                    <span class="handle">@username</span>
+                    <button class="edit-profile">Edit profile</button>
+                    <i class="fas fa-ellipsis-h more-options" title="More"></i>
+                </div>
+                <p class="bio">Developer and designer creating replicas of modern interfaces. Passionate about web tech!
+                    #WebDev</p>
+                <div class="profile-meta">
+                    <span><i class="fas fa-map-marker-alt"></i> New York</span>
+                    <span><i class="fas fa-link"></i> <a href="#">website.com</a></span>
+                    <span><i class="fas fa-calendar"></i> Joined January 2020</span>
+                </div>
+                <div class="profile-stats">
+                    <a href="#" class="stat"><strong>1,234</strong> <span>Posts</span></a>
+                    <a href="#" class="stat"><strong>567</strong> <span>Following</span></a>
+                    <a href="#" class="stat"><strong>12.3K</strong> <span>Followers</span></a>
+                </div>
+            </div>
+
+            <!-- Profile Tabs -->
+            <div class="profile-tabs">
+                <button class="profile-tab active">Posts</button>
+                <button class="profile-tab">Replies</button>
+                <button class="profile-tab">Highlights</button>
+                <button class="profile-tab">Articles</button>
+                <button class="profile-tab">Media</button>
+                <button class="profile-tab">Likes</button>
+                <div class="tab-indicator"></div>
+            </div>
+
+            <!-- Profile Posts Feed -->
+            <div class="profile-posts">
+                <div class="post">
+                    <img src="avatar.jpeg" alt="Profile" class="avatar">
+                    <div class="post-content">
+                        <div class="post-header">
+                            <a href="profile.html" class="user-link">
+                                <span class="user">User Name</span>
+                                <i class="fas fa-check-circle verified" title="Verified account" aria-hidden="true"></i>
+                            </a>
+                            <span class="handle">@username · 1h</span>
+                            <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">Just posted about my latest project! Check it out. 🚀 #XReplica</div>
+                        <div class="post-media">
+                            <img src="developerng.png" alt="Post image">
+                        </div>
+                        <div class="actions">
+                            <span><i class="fas fa-comment" title="Reply" aria-hidden="true"></i> 12</span>
+                            <span><i class="fas fa-retweet" title="Repost" aria-hidden="true"></i> 45</span>
+                            <span><i class="fas fa-heart" title="Like" aria-hidden="true"></i> 123</span>
+                            <span><i class="fas fa-share" title="Share" aria-hidden="true"></i> 10</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more posts as needed -->
+            </div>
+        </div>
+
+        <!-- Right Sidebar  -->
+        <div class="sidebar-right">
+            <div class="search-bar">
+                <i class="fas fa-search" aria-hidden="true" title="Search"></i>
+                <input type="text" placeholder="Search" aria-label="Search X">
+            </div>
+            <div class="trends">
+                <h3>Trends for you</h3>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Technology</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#AIRevolution</div>
+                    <div class="posts">123K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Sports</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#WorldCup</div>
+                    <div class="posts">89K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Entertainment</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">New Movie Release</div>
+                    <div class="posts">56K posts</div>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+            <div class="who-to-follow">
+                <h3>Who to follow</h3>
+                <div class="follow-item">
+                    <img src="developerng.png" alt="Profile" class="avatar">
+                    <div class="follow-info">
+                        <div class="user">Suggested User</div>
+                        <div class="handle">@suggesteduser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <div class="follow-item">
+                    <img src="developerng.png" alt="Profile" class="avatar">
+                    <div class="follow-info">
+                        <div class="user">Another User</div>
+                        <div class="handle">@anotheruser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

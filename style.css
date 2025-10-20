@@ -17,7 +17,6 @@ body {
 .container {
     display: flex;
     width: 100%;
-    /* max-width: 1200px; */
     height: 100vh;
 }
 
@@ -41,9 +40,9 @@ body {
     padding: 0 20px;
 }
 
-.sidebar-left .logo a{
-        color: #fff;
-        text-decoration: none;
+.sidebar-left .logo a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .sidebar-left .nav-item {
@@ -100,22 +99,7 @@ body {
     border-right: 1px solid #2f3336;
 }
 
-/* .header {
-    padding: 10px 20px;
-    border-bottom: 1px solid #2f3336;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.95); 
-    z-index: 10;
-}
 
-.header h2 {
-    font-size: 20px;
-    font-weight: bold;
-} */
 
 .header {
     padding: 0 16px;
@@ -123,7 +107,6 @@ body {
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, 0.95);
-    /* Slight transparency for scroll effect */
     z-index: 10;
 }
 
@@ -165,7 +148,6 @@ body {
 .post-input {
     padding: 12px 16px;
     border-bottom: 8px solid #2f3336;
-    /* Thicker divider like X */
     display: flex;
     gap: 12px;
 }
@@ -174,7 +156,6 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    /* margin-right: 10px; */
 }
 
 .input-wrapper {
@@ -198,9 +179,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 10px 20px;
-    /* border-bottom: 1px solid #2f3336; */
 }
 
 .action-icons {
@@ -250,14 +229,12 @@ body {
 
 .post:hover {
     background-color: #080808;
-    /* cursor: pointer; */
 }
 
 .post img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    /* margin-right: 10px; */
 }
 
 .post-content {
@@ -326,7 +303,6 @@ body {
 
 .actions span:hover i {
     color: #1d9bf0;
-    /* Specific hover colors can be customized */
 }
 
 .thread-link {
@@ -452,15 +428,10 @@ body {
 .who-to-follow {
     background-color: #202327;
     border-radius: 16px;
-    /* Slightly more rounded than original */
     padding: 16px;
     margin-bottom: 16px;
-    /* display: flex; */
     align-items: center;
-    /* padding: 12px 0; */
-    /* cursor: pointer; */
     transition: background 0.2s;
-    /* background-color: #2a2e33; */
 }
 
 .who-to-follow h3 {
@@ -601,16 +572,13 @@ body {
 }
 
 
-
-
-
-/* Profile Page Styles */
+/*--------------------------------- Profile Page Styles----------------------------- */
 .profile-page {
     position: relative;
 }
 
 .profile-banner {
-    height: 280px; /* X-like banner height */
+    height: 280px;
     overflow: hidden;
     background-color: #000;
 }
@@ -623,7 +591,7 @@ body {
 
 .profile-avatar {
     position: absolute;
-    top: 200px; /* Overlaps banner */
+    top: 200px;
     left: 20px;
 }
 
@@ -637,7 +605,7 @@ body {
 
 .profile-info {
     padding: 0 16px 16px;
-    margin-top: 60px; /* Account for avatar overlap */
+    margin-top: 60px;
 }
 
 .profile-top {
@@ -658,7 +626,8 @@ body {
     font-size: 20px;
 }
 
-.edit-profile, .more-options {
+.edit-profile,
+.more-options {
     margin-left: auto;
     background: #fff;
     color: #000;
@@ -763,11 +732,12 @@ body {
 }
 
 .profile-posts {
-    border-bottom: none; /* No bottom border on last post */
+    border-bottom: none;
 }
 
 /* User Links (for navigation) */
-.user-link, .avatar-link {
+.user-link,
+.avatar-link {
     text-decoration: none;
     color: inherit;
 }
@@ -780,7 +750,6 @@ body {
     display: block;
 }
 
-/* Active Nav Item in Sidebar */
 .sidebar-left .nav-item.profile-link.active {
     color: #1d9bf0;
     background-color: #1a1a1a;
@@ -791,17 +760,21 @@ body {
     .profile-banner {
         height: 160px;
     }
+
     .profile-avatar {
         top: 100px;
         left: 16px;
     }
+
     .profile-avatar img {
         width: 96px;
         height: 96px;
     }
+
     .profile-info {
         margin-top: 40px;
     }
+
     .profile-top .user-name {
         font-size: 24px;
     }

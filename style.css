@@ -45,11 +45,6 @@ body {
     text-decoration: none;
 }
 
-/* .sidebar-left a:hover {
-    background-color: #1a1a1a;
-    color: #1d9bf0;
-} */
-
 .sidebar-left .nav-item {
     display: flex;
     align-items: center;
@@ -68,7 +63,7 @@ body {
     font-size: 22px;
 }
 
-.sidebar-left .nav-item:hover, .sidebar-left .nav-item:hover a:hover {
+.sidebar-left .nav-item:hover, .sidebar-left .nav-item:hover a {
     background-color: #1a1a1a;
     color: #1d9bf0;
 }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages | X Interface Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="sidebar-left">
+            <div class="logo"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="nav-item"><i class="fa-regular fa-home"></i><span><a href="index.html">Home</a></span></div>
+            <div class="nav-item"><i class="fa-solid fa-search"></i><span><a href="explore.html">Explore</a></span></div>
+            <div class="nav-item"><i class="fa-regular fa-bell"></i><span><a href="notifications.html">Notifications</a></span></div>
+            <div class="nav-item active"><i class="fa-regular fa-envelope"></i><span><a href="messages.html">Messages</a></span></div>
+            <div class="nav-item"><i class="fa-solid fa-robot"></i><span><a href="https://grok.x.ai">Grok</a></span></div>
+            <div class="nav-item"><i class="fa-brands fa-x-twitter"></i><span><a href="https://x.com/premium">Premium</a></span></div>
+            <div class="nav-item"><i class="fa-solid fa-list"></i><span><a href="lists.html">Lists</a></span></div>
+            <div class="nav-item"><i class="fa-regular fa-bookmark"></i><span><a href="bookmarks.html">Bookmarks</a></span></div>
+            <div class="nav-item"><i class="fas fa-users"></i><span><a href="communities.html">Communities</a></span></div>
+            <div class="nav-item profile-link"><i class="fas fa-user"></i><span><a href="profile.html">Profile</a></span></div>
+            <div class="nav-item"><i class="fa-solid fa-ellipsis"></i><span>More</span></div>
+            <div class="post-button"><i class="fa-solid fa-feather"></i><span>Post</span></div>
+        </div>
+
+        <!-- Main Content: Messages Page -->
+        <div class="main-content messages-page">
+            <div class="header">
+                <h2>Messages</h2>
+                <div class="message-actions">
+                    <i class="fas fa-envelope-open-text" title="New message" aria-hidden="true"></i>
+                    <i class="fas fa-cog" title="Settings" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="messages-container">
+                <!-- Conversation List -->
+                <div class="conversations">
+                    <div class="conversation-item active">
+                        <img src="avatar.jpeg" alt="Profile" class="avatar">
+                        <div class="conversation-info">
+                            <div class="user">User Name <i class="fas fa-check-circle verified" title="Verified" aria-hidden="true"></i></div>
+                            <div class="handle">@username</div>
+                            <div class="preview">Hey, great post today!</div>
+                            <span class="timestamp">10:30 AM</span>
+                        </div>
+                    </div>
+                    <div class="conversation-item">
+                        <img src="https://via.placeholder.com/40" alt="Profile" class="avatar">
+                        <div class="conversation-info">
+                            <div class="user">Another User</div>
+                            <div class="handle">@anotheruser</div>
+                            <div class="preview">Let’s collaborate on a project.</div>
+                            <span class="timestamp">Yesterday</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chat Window -->
+                <div class="chat-window">
+                    <div class="chat-header">
+                        <img src="avatar.jpeg" alt="Profile" class="avatar">
+                        <div class="chat-user-info">
+                            <span class="user">User Name</span>
+                            <i class="fas fa-check-circle verified" title="Verified" ariaSesss-hidden="true"></i>
+                            <span class="handle">@username</span>
+                        </div>
+                        <i class="fas fa-info-circle" title="Conversation details" aria-hidden="true"></i>
+                    </div>
+                    <div class="messages">
+                        <div class="message received">
+                            <p>Hey, great post today! Loved the #XReplica hashtag.</p>
+                            <span class="timestamp">10:28 AM</span>
+                        </div>
+                        <div class="message sent">
+                            <p>Thanks! Appreciating the support. 😎</p>
+                            <span class="timestamp">10:30 AM</span>
+                        </div>
+                    </div>
+                    <div class="message-input">
+                        <textarea placeholder="Send a message" aria-label="Type a message"></textarea>
+                        <div class="input-actions">
+                            <i class="fas fa-image" title="Add image" aria-hidden="true"></i>
+                            <i class="fas fa-smile" title="Add emoji" aria-hidden="true"></i>
+                            <button class="send-button">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar (Identical to index.html) -->
+        <div class="sidebar-right">
+            <div class="search-bar">
+                <i class="fas fa-search" aria-hidden="true" title="Search"></i>
+                <input type="text" placeholder="Search" aria-label="Search X">
+            </div>
+            <div class="trends">
+                <h3>Trends for you</h3>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Technology</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#AIRevolution</div>
+                    <div class="posts">123K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Sports</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">#WorldCup</div>
+                    <div class="posts">89K posts</div>
+                </div>
+                <div class="trend-item">
+                    <div class="trend-header">
+                        <span class="category">Trending in Entertainment</span>
+                        <i class="fas fa-ellipsis-h more" title="More options" aria-hidden="true"></i>
+                    </div>
+                    <div class="topic">New Movie Release</div>
+                    <div class="posts">56K posts</div>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+            <div class="who-to-follow">
+                <h3>Who to follow</h3>
+                <div class="follow-item">
+                    <a href="messages.html" class="avatar-link">
+                        <img src="https://via.placeholder.com/40" alt="Profile" class="avatar">
+                    </a>
+                    <div class="follow-info">
+                        <a href="messages.html" class="user-link"><div class="user">Suggested User</div></a>
+                        <div class="handle">@suggesteduser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <div class="follow-item">
+                    <a href="messages.html" class="avatar-link">
+                        <img src="https://via.placeholder.com/40" alt="Profile" class="avatar">
+                    </a>
+                    <div class="follow-info">
+                        <a href="messages.html" class="user-link"><div class="user">Another User</div></a>
+                        <div class="handle">@anotheruser</div>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                </div>
+                <a href="#" class="show-more">Show more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -45,10 +45,10 @@ body {
     text-decoration: none;
 }
 
-.sidebar-left a:hover {
+/* .sidebar-left a:hover {
     background-color: #1a1a1a;
     color: #1d9bf0;
-}
+} */
 
 .sidebar-left .nav-item {
     display: flex;

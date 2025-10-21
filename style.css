@@ -750,7 +750,7 @@ body {
     display: block;
 }
 
-.sidebar-left .nav-item.profile-link.active {
+.sidebar-left .nav-item.active {
     color: #1d9bf0;
     background-color: #1a1a1a;
 }
@@ -937,6 +937,8 @@ body {
     border-radius: 16px 16px 0 16px;
     margin-left: auto;
     color: #fff;
+        padding: 8px 12px;
+
 }
 
 .message p {
